@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" type="image/png" href="icon-wheel-32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/icons/icon-wheel-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <title>«Car Shop»</title>
 </head>
-<p>
+
+<body>
+
   <div id="top-anchor"></div>
   <header id="top">
-    <strong>🚗 «Car Shop»</strong>
     <nav aria-label="Головне меню">
       <ul>
         <li><a href="#ford">Ford</a></li>
@@ -18,6 +22,9 @@
         <li><a href="#bmw">BMW</a></li>
       </ul>
     </nav>
+    <span class="site-logo"> 
+      «Car Shop» <img src="assets/icons/icon-wheel-128.png" alt="Car Shop logo" width="32" height="32">
+    </span>
   </header>
 
   <h1>Ласкаво просимо до АвтоСалону «Car Shop»</h1>
@@ -33,7 +40,7 @@
     <!-- FORD -->
     <article id="ford">
       <header>
-        <img  src="icon/icon-ford-100.png" alt="Ford логотип" width="120"/>
+        <img src="assets/icons/icon-ford-100.png" alt="Ford логотип" width="120"/>
         <h2>Ford</h2>
         <a href="#top-anchor"> ↑ </a>
       </header>
@@ -54,20 +61,18 @@
       <section id="ford-reviews">
         <h3>Відгуки покупців</h3>
         <h4>Ford Mustang</h4>
-        <p><strong>Олексій, Київ:</strong> «Неймовірна динаміка, чудовий звук V8. Трохи великі витрати пального, але це ціна задоволення.»</p>
-        <p><strong>Марина, Харків:</strong> «Mustang EcoBoost — відмінний компроміс між потужністю та економічністю. Рекомендую!»</p>
+        <p><b>Олексій, Київ:</b> «Неймовірна динаміка, чудовий звук V8. Трохи великі витрати пального, але це ціна задоволення.»</p>
+        <p><b>Марина, Харків:</b> «Mustang EcoBoost — відмінний компроміс між потужністю та економічністю. Рекомендую!»</p>
         <h4>Ford Explorer</h4>
-        <p><strong>Дмитро, Одеса:</strong> «Ідеальний сімейний автомобіль. Семимісний салон, великий багажник, комфортна підвіска.»</p>
-        <p><strong>Наталя, Львів:</strong> «Гібридний Explorer суттєво економить паливо в місті. Приємно здивована якістю збирання.»</p>
+        <p><b>Дмитро, Одеса:</b> «Ідеальний сімейний автомобіль. Семимісний салон, великий багажник, комфортна підвіска.»</p>
+        <p><b>Наталя, Львів:</b> «Гібридний Explorer суттєво економить паливо в місті. Приємно здивована якістю збирання.»</p>
       </section>
     </article>
-
-    <hr/>
 
     <!-- TOYOTA -->
     <article id="toyota">
       <header>
-        <img src="icon/icon-toyota-100.png" alt="Toyota логотип" width="120"/>
+        <img src="assets/icons/icon-toyota-100.png" alt="Toyota логотип" width="120"/>
         <h2>Toyota</h2>
         <a href="#top-anchor"> ↑ </a>
       </header>
@@ -88,20 +93,18 @@
       <section id="toyota-reviews">
         <h3>Відгуки покупців</h3>
         <h4>Toyota Camry</h4>
-        <p><strong>Іван, Дніпро:</strong> «За три роки жодних серйозних поломок. Тихий салон, потужний мотор, чудова плавність ходу.»</p>
-        <p><strong>Оксана, Запоріжжя:</strong> «Гібридна Camry — найкраще, що я купувала. Витрати пального мінімальні.»</p>
+        <p><b>Іван, Дніпро:</b> «За три роки жодних серйозних поломок. Тихий салон, потужний мотор, чудова плавність ходу.»</p>
+        <p><b>Оксана, Запоріжжя:</b> «Гібридна Camry — найкраще, що я купувала. Витрати пального мінімальні.»</p>
         <h4>Toyota RAV4</h4>
-        <p><strong>Сергій, Полтава:</strong> «Ідеальний для наших доріг. Висока посадка, повний привід, надійна підвіска.»</p>
-        <p><strong>Тетяна, Вінниця:</strong> «RAV4 Hybrid — задоволена на 100%. Економічний, зручний, великий багажник.»</p>
+        <p><b>Сергій, Полтава:</b> «Ідеальний для наших доріг. Висока посадка, повний привід, надійна підвіска.»</p>
+        <p><b>Тетяна, Вінниця:</b> «RAV4 Hybrid — задоволена на 100%. Економічний, зручний, великий багажник.»</p>
       </section>
     </article>
-
-    <hr/>
 
     <!-- BMW -->
     <article id="bmw">
       <header>
-        <img src="icon/icon-bmw-90.png" alt="BMW логотип" width="120"/>
+        <img src="assets/icons/icon-bmw-90.png" alt="BMW логотип" width="120"/>
         <h2>BMW</h2>
         <a href="#top-anchor"> ↑ </a>
       </header>
@@ -122,11 +125,11 @@
       <section id="bmw-reviews">
         <h3>Відгуки покупців</h3>
         <h4>BMW 3 Series</h4>
-        <p><strong>Андрій, Київ:</strong> «Чітке рульове управління, потужний двигун, преміальний салон. Жодна інша машина не дає такого відчуття єдності з дорогою.»</p>
-        <p><strong>Вікторія, Харків:</strong> «320i — відмінний вибір для міста. BMW iDrive — найзручніша мультимедійна система з усіх, що мала.»</p>
+        <p><b>Андрій, Київ:</b> «Чітке рульове управління, потужний двигун, преміальний салон. Жодна інша машина не дає такого відчуття єдності з дорогою.»</p>
+        <p><b>Вікторія, Харків:</b> «320i — відмінний вибір для міста. BMW iDrive — найзручніша мультимедійна система з усіх, що мала.»</p>
         <h4>BMW X5</h4>
-        <p><strong>Михайло, Одеса:</strong> «X5 — це інший рівень. Потужний, просторий, розкішний. Підвіска ідеально поглинає нерівності дороги.»</p>
-        <p><strong>Людмила, Дніпро:</strong> «X5 xDrive45e — гібрид з великим запасом ходу. Повний привід дає впевненість взимку.»</p>
+        <p><b>Михайло, Одеса:</b> «X5 — це інший рівень. Потужний, просторий, розкішний. Підвіска ідеально поглинає нерівності дороги.»</p>
+        <p><b>Людмила, Дніпро:</b> «X5 xDrive45e — гібрид з великим запасом ходу. Повний привід дає впевненість взимку.»</p>
       </section>
     </article>
 
@@ -136,10 +139,10 @@
     <hr/>
     <h2>Контакти АвтоСалону «Car Shop»</h2>
     <address>
-      <p><strong>Адреса:</strong> вул. Автомобільна, 1, м. Київ, 01001, Україна</p>
-      <p><strong>Email:</strong> <a href="mailto:info@drivemarket.ua">info@drivemarket.ua</a></p>
-      <p><strong>Телефон:</strong> <a href="tel:+380667800826">+38 (066) 780-08-26</a></p>
-      <p><strong>Сайт:</strong> <a href="https://www.drivemarket.ua" target="_blank" rel="noopener">www.drivemarket.ua</a></p>
+      <p><span class="label">Адреса:</span> вул. Автомобільна, 1, м. Київ, 01001, Україна</p>
+      <p><span class="label">Email:</span> <a href="mailto:info@drivemarket.ua">info@drivemarket.ua</a></p>
+      <p><span class="label">Телефон:</span> <a href="tel:+380667800826">+38 (066) 780-08-26</a></p>
+      <p><span class="label">Сайт:</span> <a href="https://www.drivemarket.ua" target="_blank" rel="noopener">www.drivemarket.ua</a></p>
     </address>
     <small>&copy; 2026 АвтоСалон «Car Shop». Усі права захищені.</small>
   </footer>
