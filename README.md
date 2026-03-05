@@ -45,7 +45,7 @@
 car-shop/
 │
 ├── index.html              # Головна HTML-сторінка
-├── style.css               # Всі стилі з детальними коментарями
+├── style.css               # Стилі з коментарями
 │
 ├── icon/                   # Логотипи брендів
 │   ├── icon-wheel-32.png
@@ -53,7 +53,7 @@ car-shop/
 │   ├── icon-toyota-100.png
 │   └── icon-bmw-90.png
 │
-└── screenshots/            # 👈 Створи цю папку для скріншотів
+└── screenshots/            # Для скріншотів
     ├── preview-main.png
     ├── preview-ford.png
     ├── preview-toyota.png
