@@ -127,7 +127,7 @@ car-shop/
 ### 🚀 Як запустити
 
 ```bash
-git clone https://github.com/your-username/car-shop.git
+git clone https://github.com/g4rnet/Car-Shop
 cd car-shop
 # Відкрий index.html у будь-якому браузері — збірка не потрібна
 ```
